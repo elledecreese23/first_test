@@ -25,6 +25,7 @@ public class SearchTest {
         searchPage.inputSearch("Погода в Пензе");
         searchPage.SearchButton();
         resultPage.ResultButton();
+        driver.quit();
     }
 }
 
