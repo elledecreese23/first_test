@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class SearchTest extends BaseTest {
 
     @Test
-    public void searchTest(){
+    public void starttest (){
         searchPage = new SearchPage(driver);
         resultPage = new ResultPage(driver);
         searchPage.inputSearch("Погода в Пензе");
